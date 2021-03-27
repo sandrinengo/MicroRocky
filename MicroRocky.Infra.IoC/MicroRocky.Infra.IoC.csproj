@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroRocky.Product.Data\MicroRocky.Product.Data.csproj" />
+    <ProjectReference Include="..\MicroRocky.Product.Domain\MicroRocky.Product.Domain.csproj" />
+    <ProjectReference Include="..\MicroRocky.Production.Application\MicroRocky.Production.Application.csproj" />
+  </ItemGroup>
+
+</Project>
